@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# IDCDC React Fundamentals Workshop
+>Dear IDCDC pizza-lovers,<br/>
+Feel free to use this codebase and README file as a reference to your project.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+>We went through many subjects in a very short time, give yourself the time to practice.<br/> I recommend you to go through the subjects' list and google any subject you're not sure about, **before and during** the project.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## The Workshop Content:
+  1. **Frontend Development**: 
+     - Background & History
+  2. **React theory principles**: 
+     - Diffing algorithm
+     - Rendering logic  
+  3. **NPM**: 
+     - package.json file
+     - node_modules 
+     - README file
+     - [npmjs.com](npmjs.com) 
+  4. **Create-react-app**: 
+     - The reason to use it 
+     - The folder structure (public, node_modules, src)
+  5. **HTML DOM**:
+     - What's the DOM
+     - Events: onClick & onChange
+  6. **React Components**: 
+     - Functional Components 
+     - Components life-cycle (Mouting, Updating, unMounting)
+     - Components Props
+     - The component State   
+  7. **React Hooks**: 
+     - useState 
+     - useEffect
+  8. **API Calls**: 
+     - async/await functionality
+     - Promise 
+     - Communicating with a B.E. server though HTTP Request
