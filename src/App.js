@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Button from './components/Button';
+import Content from './components/Content';
+import CountriesList from './components/CountriesList';
+import SearchBar from './components/SearchBar';
+import Title from './components/Title';
 
-function App() {
+export default function App() {
+  const [searchValue, setSearchValue] = useState('')
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SearchBar searchValue={searchValue} setSearchValue={setSearchValue} />
+      <CountriesList searchValue={searchValue} />
+      {/* <Title name={"IDC"} text={state} />
+      <Content text="Type here" />
+      <Button /> */}
     </div>
   );
 }
-
-export default App;
